@@ -1,5 +1,5 @@
-document.addEventListener("DomContentLoaded", function(){
-    const boton= document.getElementById ("divButton");
+document.addEventListener("DOMContentLoaded", function(){
+    const boton= document.getElementById ("divbtn");
     boton.addEventListener("click", function() {
         alert("Hola! Soy el div");
       });
