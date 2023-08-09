@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(){
-    const boton= document.getElementById ("divbtn");
-    boton.addEventListener("click", function() {
+document.addEventListener("DOMContentLoaded",function(){
+    const divbtn= document.getElementById ("divbtn");
+    divbtn.addEventListener("click", function() {
         alert("Hola! Soy el div");
       });
     })
